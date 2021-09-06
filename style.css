@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Allison&family=Architects+Daughter&family=Comfortaa:wght@500&family=Satisfy&display=swap');
+body{
+    background-image: linear-gradient(to right, rgb(0, 255, 200) , rgb(0, 255, 128));
+
+}
+section{
+    text-align: center;
+}
+.main{
+    width: 100%;
+}
+.game--container {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    width: 306px;
+    margin: 50px auto;
+
+}
+.game--title{
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+    text-align: center;
+    padding-top: 20px;
+    font-family: 'Comfortaa', cursive;
+}
+.game--status{
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+    font-family: 'Comfortaa', cursive;
+
+    
+
+}
+.game--restart{
+    color: rgb(0, 0, 0);
+    font-family: 'Comfortaa', cursive;
+}
+button{
+    background-color: rgb(255, 255, 255);
+  color: black;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+  border: 1px solid black;
+  height: 40px;
+  width: 150px;
+  font-size: 15px;
+
+
+}
+button:hover{
+    background-color: #dfdbdb;
+
+}
+
+.cell {
+    font-family: "Permanent Marker", cursive;
+    width: 100px;
+    height: 100px;
+    box-shadow: 0 0 0 1px #fdfdfd;
+    border: 1px solid #ece2e2;
+    cursor: pointer;
+    line-height: 100px;
+    font-size: 60px;
+    background-color: #fafafa;
+    font-family: 'Allison', cursive;
+}
+
+
+  @media only screen and (max-width: 300px) {
+    body {
+      background-image: none;
+    }
+  }
+
+/* @media only screen and (max-width:300px){
+    .game--container{
+        width: 100%;
+        background-color: chartreuse;
+    }
+
+
+} */
+  
+@media only screen and (max-width:300px){
+    .main{
+        width: 100%;
+        margin-top: 500px;
+    }
+}
+  
