@@ -1,5 +1,7 @@
 const statusDisplay = document.querySelector('.game--status');
 const header = document.querySelector(".header");
+let xResult=Number(document.querySelector("#result1").innerText);
+let oResult=Number(document.querySelector("#result2").innerText);
 
 
 let gameActive = true;              // game start
@@ -49,12 +51,25 @@ function handleResultValidation() {
             continue;
         }
         if (a === b && b === c) {
+            if(currentPlayer=="X")
+            {
+                xResult++;
+                document.querySelector("#result1").innerText=xResult;
+
+            }
+            else if(currentPlayer=="O")
+            {
+                oResult++;
+                document.querySelector("#result2").innerText=oResult;
+
+            }
             roundWon = true;
             break
         }
     }
 
     if (roundWon) {
+
         statusDisplay.innerHTML = winningMessage();
         gameActive = false;
         return;
