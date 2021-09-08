@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Allison&family=Architects+Daughter&family=Comfortaa:wght@500&family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
 body{
     background-image: linear-gradient(to right, rgb(0, 255, 200) , rgb(0, 255, 128));
 
@@ -20,7 +22,6 @@ section{
     color: rgb(0, 0, 0);
     font-size: 30px;
     text-align: center;
-    padding-top: 20px;
     font-family: 'Comfortaa', cursive;
 }
 .game--status{
@@ -38,7 +39,7 @@ section{
 button{
     background-color: rgb(255, 255, 255);
   color: black;
-  padding: 10px 20px;
+  padding: 10px 10px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
@@ -69,6 +70,20 @@ button:hover{
     font-family: 'Allison', cursive;
 }
 
+.scoreX{
+    position: absolute;
+    left: 100px;
+    top:310px;
+    font-family: 'Dancing Script', cursive;
+
+}
+.scoreY{
+    position: absolute;
+    right: 100px;
+    top:310px;
+    font-family: 'Dancing Script', cursive;
+
+}
 
   @media only screen and (max-width: 300px) {
     body {
