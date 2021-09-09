@@ -58,7 +58,7 @@ button:hover{
 }
 
 .cell {
-    font-family: "Permanent Marker", cursive;
+    /* font-family: "Permanent Marker", cursive; */
     width: 100px;
     height: 100px;
     box-shadow: 0 0 0 1px #fdfdfd;
@@ -107,3 +107,24 @@ button:hover{
     }
 }
   
+@media only screen and (max-width:500px){
+    .scoreX{
+        position: absolute;
+        top: 74%;
+        left: 20px;
+        font-family: 'Comfortaa', cursive;
+        font-size: 10px;
+
+}
+}
+
+@media only screen and  (max-width:500px){
+    .scoreY{
+        position: absolute;
+        top: 74%;
+        right: 20px;
+        font-family: 'Comfortaa', cursive;
+        font-size: 10px;
+
+    }
+}
