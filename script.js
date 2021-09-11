@@ -16,7 +16,7 @@ const currentPlayerTurn = () => `It's ${currentPlayer}'s Turn`;   // current pla
 
 statusDisplay.innerHTML = currentPlayerTurn();                    // display current player turn
 
-const winningConditions = [
+const winningConditions = [ 
     [0, 1, 2],                                                    // conditions  
     [3, 4, 5],
     [6, 7, 8],
