@@ -1,1 +1,1 @@
-<h1 href="https://tik-toc-toe.netlify.app/">Click Here</h1>                                
+<a href="https://tik-toc-toe.netlify.app/"><h1>Click Here</h1></a>
