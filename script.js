@@ -3,7 +3,7 @@ const header = document.querySelector(".header");
 let xResult=Number(document.querySelector("#result1").innerText);
 let oResult=Number(document.querySelector("#result2").innerText);
 
-
+                                      
 
 let gameActive = true;              // game start
 let currentPlayer = "X";
