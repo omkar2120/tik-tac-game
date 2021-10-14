@@ -5,7 +5,7 @@ let oResult=Number(document.querySelector("#result2").innerText);
 
                                       
 
-let gameActive = true;              // game start
+let gameActive = true;              // game start                    
 let currentPlayer = "X";
 let gameState = ["", "", "", "", "", "", "", "", ""];
  
